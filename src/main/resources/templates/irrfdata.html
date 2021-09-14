@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleog.org" lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" th:href="@{/css/style.css}">
+	<title>IRRF</title>
+</head>
+<body>
+		<h1  class="irrf-title">IRRF</h1>
+		<div class="form-irrf" th:object="${IRRF}">
+			<label class="lb-result">Salário Bruto:</label>
+			<p class="txt-result" th:text="*{salario_bruto}"></p>
+			<label  class="lb-result">Nº dependentes:</label>
+		    <p class="txt-result" th:text="*{num_dependentes}"></p>
+		    <label  class="lb-result">IRRF devido:</label>
+		    <p class="txt-result" th:text="*{retornaIRRF()}"></p>
+		</div>
+		
+</body>
+</html>

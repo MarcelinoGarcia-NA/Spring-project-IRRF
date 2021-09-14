@@ -1,0 +1,50 @@
+body{
+	background-color:#481966;
+}
+.irrf-title{
+	width:33.3%;
+	text-align: center;
+	margin-left: 33.3%;
+	margin-top:200px; 
+	color: #efffff;
+}
+.form-irrf{
+	width: 30%;
+	margin: 0 auto;
+	height: 180px;
+	background-color: #221C25;
+}
+.input-form{
+	width:40%;
+	margin-right: 9%;
+	margin-top: 25px;
+	float:right;
+}
+.label-form{
+	width:45%;
+	margin-left:4%;
+	margin-top: 25px;
+	color:white;
+	float:left;
+}
+.btn{
+	width:33.3%;
+	height:30px;
+	border:none;
+	margin-top: 30px;
+	margin-left: 33.3%;
+	color: #efffff;
+	background-color: #0A080C;
+}
+.txt-result{
+	width:40%;
+	color: #efffff;	
+	float:left;
+}
+.lb-result{
+	width:40%;
+	float: left;
+	margin-left: 10%;
+	margin-top: 17px;
+	color:#efffff;
+}

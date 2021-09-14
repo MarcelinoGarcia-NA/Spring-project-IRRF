@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleog.org" lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	 <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}">
+	<title>IRRF</title>
+</head>
+<body>
+		<h1 class="irrf-title">IRRF</h1>
+		<form class="form-irrf" th:object="${IRRF}" th:action="@{/}" method="post">
+					<label class="label-form">Salário Mensal Bruto:</label>
+						<input class="input-form" type="number" step="0.01" th:field="*{salario_bruto}" >
+					<label class="label-form">Número de dependente:</label>
+						<input class="input-form" type="number" th:field="*{num_dependentes}">
+						
+		            <input class="btn" type="submit" value="Calcular">
+		</form>
+	
+</body>
+</html>
